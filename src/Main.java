@@ -1,6 +1,8 @@
+
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
+import gurobi.*;
 
 public class Main {
 
@@ -18,6 +20,7 @@ public class Main {
     // Call other classes
     private static Human human;
     private static ArrayList<Food> foods = new ArrayList<Food>();
+    
 
     public static void main(String args[]){
 
