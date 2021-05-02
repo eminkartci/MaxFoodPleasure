@@ -1,0 +1,120 @@
+
+--- EMIN & CANSU LTD ---
+
+
+--- Human ---
+Name         : Cansu
+Money        : 100
+Food Capacity: 50
+Pleasure     : 0
+
+
+ Suggested Menu 
+[
+--- Food ---
+Name         : Künefe_E6
+Cost         : 10
+Satiety      : 10
+Pleasure     : 12, 
+--- Food ---
+Name         : Hambuger_E4
+Cost         : 13
+Satiety      : 11
+Pleasure     : 9, 
+--- Food ---
+Name         : Lahmacun_E8
+Cost         : 11
+Satiety      : 7
+Pleasure     : 8, 
+--- Food ---
+Name         : Pilav_E5
+Cost         : 6
+Satiety      : 9
+Pleasure     : 8, 
+--- Food ---
+Name         : Antrikot_E5
+Cost         : 12
+Satiety      : 14
+Pleasure     : 13, 
+--- Food ---
+Name         : Salata_E7
+Cost         : 14
+Satiety      : 6
+Pleasure     : 6, 
+--- Food ---
+Name         : Tatlı_E0
+Cost         : 11
+Satiety      : 7
+Pleasure     : 9, 
+--- Food ---
+Name         : Mantı_E0
+Cost         : 14
+Satiety      : 14
+Pleasure     : 5, 
+--- Food ---
+Name         : Antrikot_E8
+Cost         : 11
+Satiety      : 9
+Pleasure     : 9, 
+--- Food ---
+Name         : Hambuger_E7
+Cost         : 9
+Satiety      : 12
+Pleasure     : 9, 
+--- Food ---
+Name         : Mercimek_E5
+Cost         : 14
+Satiety      : 8
+Pleasure     : 11, 
+--- Food ---
+Name         : Pilav_E3
+Cost         : 11
+Satiety      : 10
+Pleasure     : 11, 
+--- Food ---
+Name         : Pilav_E5
+Cost         : 13
+Satiety      : 11
+Pleasure     : 5, 
+--- Food ---
+Name         : Salata_E8
+Cost         : 14
+Satiety      : 7
+Pleasure     : 14, 
+--- Food ---
+Name         : Antrikot_E1
+Cost         : 13
+Satiety      : 11
+Pleasure     : 14, 
+--- Food ---
+Name         : Künefe_E7
+Cost         : 13
+Satiety      : 6
+Pleasure     : 11, 
+--- Food ---
+Name         : Mantı_E2
+Cost         : 9
+Satiety      : 9
+Pleasure     : 6, 
+--- Food ---
+Name         : Mercimek_E1
+Cost         : 7
+Satiety      : 13
+Pleasure     : 5, 
+--- Food ---
+Name         : Lahmacun_E1
+Cost         : 13
+Satiety      : 13
+Pleasure     : 10, 
+--- Food ---
+Name         : Mantı_E4
+Cost         : 7
+Satiety      : 13
+Pleasure     : 7]
+
+ Analysis 
+Solution Money		: 75
+Solution Capacity		: 49
+Menu Food Count		: 6
+Solution Pleasure		: 71
+All rights are reserved @2021 Emin & Cansu

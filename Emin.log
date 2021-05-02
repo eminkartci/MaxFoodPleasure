@@ -31,3 +31,162 @@ Solution count 2: 58
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 5.800000000000e+01, best bound 5.800000000000e+01, gap 0.0000%
+
+Gurobi 9.1.1 (mac64, Java) logging started Sun May  2 15:26:53 2021
+
+Academic license - for non-commercial use only - expires 2021-06-20
+Warning: variables 1 and 5 have the same name "Hambuger_E0"
+Warning: constraint name " Money Constraint" has a space
+Warning: to let Gurobi read it back, use rlp format
+Gurobi Optimizer version 9.1.1 build v9.1.1rc0 (mac64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 2 rows, 20 columns and 40 nonzeros
+Model fingerprint: 0x3176774c
+Variable types: 0 continuous, 20 integer (20 binary)
+Coefficient statistics:
+  Matrix range     [5e+00, 1e+01]
+  Objective range  [5e+00, 1e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [4e+01, 1e+02]
+Found heuristic solution: objective 62.0000000
+Presolve removed 2 rows and 20 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 2: 78 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.800000000000e+01, best bound 7.800000000000e+01, gap 0.0000%
+
+Gurobi 9.1.1 (mac64, Java) logging started Sun May  2 15:31:07 2021
+
+Academic license - for non-commercial use only - expires 2021-06-20
+Warning: variables 9 and 14 have the same name "Hambuger_E9"
+Warning: constraint name " Money Constraint" has a space
+Warning: to let Gurobi read it back, use rlp format
+Gurobi Optimizer version 9.1.1 build v9.1.1rc0 (mac64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 2 rows, 20 columns and 40 nonzeros
+Model fingerprint: 0xbe8a2eaf
+Variable types: 0 continuous, 20 integer (20 binary)
+Coefficient statistics:
+  Matrix range     [5e+00, 1e+01]
+  Objective range  [5e+00, 1e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [8e+01, 1e+02]
+Found heuristic solution: objective 61.0000000
+Presolve removed 2 rows and 20 columns
+Presolve time: 0.01s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 2: 104 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.040000000000e+02, best bound 1.040000000000e+02, gap 0.0000%
+
+Gurobi 9.1.1 (mac64, Java) logging started Sun May  2 15:33:24 2021
+
+Academic license - for non-commercial use only - expires 2021-06-20
+Warning: variables 0 and 9 have the same name "Mercimek_E1"
+Warning: constraint name " Money Constraint" has a space
+Warning: to let Gurobi read it back, use rlp format
+Gurobi Optimizer version 9.1.1 build v9.1.1rc0 (mac64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 2 rows, 20 columns and 40 nonzeros
+Model fingerprint: 0xaf853b5e
+Variable types: 0 continuous, 20 integer (20 binary)
+Coefficient statistics:
+  Matrix range     [5e+00, 1e+01]
+  Objective range  [5e+00, 1e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+02, 2e+02]
+Found heuristic solution: objective 103.0000000
+Presolve removed 2 rows and 20 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 2: 135 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.350000000000e+02, best bound 1.350000000000e+02, gap 0.0000%
+
+Gurobi 9.1.1 (mac64, Java) logging started Sun May  2 15:33:46 2021
+
+Academic license - for non-commercial use only - expires 2021-06-20
+Warning: variables 3 and 12 have the same name "Pilav_E5"
+Warning: constraint name " Money Constraint" has a space
+Warning: to let Gurobi read it back, use rlp format
+Gurobi Optimizer version 9.1.1 build v9.1.1rc0 (mac64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 2 rows, 20 columns and 40 nonzeros
+Model fingerprint: 0x39d5878a
+Variable types: 0 continuous, 20 integer (20 binary)
+Coefficient statistics:
+  Matrix range     [6e+00, 1e+01]
+  Objective range  [5e+00, 1e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e+01, 1e+02]
+Found heuristic solution: objective 52.0000000
+Presolve removed 2 rows and 20 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 2: 71 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.100000000000e+01, best bound 7.100000000000e+01, gap 0.0000%
+
+Gurobi 9.1.1 (mac64, Java) logging started Sun May  2 15:34:24 2021
+
+Academic license - for non-commercial use only - expires 2021-06-20
+Warning: variables 8 and 11 have the same name "Salata_E0"
+Warning: constraint name " Money Constraint" has a space
+Warning: to let Gurobi read it back, use rlp format
+Gurobi Optimizer version 9.1.1 build v9.1.1rc0 (mac64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 2 rows, 20 columns and 40 nonzeros
+Model fingerprint: 0x76ed8bb1
+Variable types: 0 continuous, 20 integer (20 binary)
+Coefficient statistics:
+  Matrix range     [5e+00, 1e+01]
+  Objective range  [5e+00, 1e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [7e+01, 8e+01]
+Found heuristic solution: objective 64.0000000
+Presolve time: 0.00s
+Presolved: 2 rows, 20 columns, 40 nonzeros
+Variable types: 0 continuous, 20 integer (20 binary)
+
+Root relaxation: objective 9.500000e+01, 1 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   95.00000    0    1   64.00000   95.00000  48.4%     -    0s
+H    0     0                      93.0000000   95.00000  2.15%     -    0s
+     0     0   94.80000    0    3   93.00000   94.80000  1.94%     -    0s
+H    0     0                      94.0000000   94.80000  0.85%     -    0s
+     0     0   94.80000    0    3   94.00000   94.80000  0.85%     -    0s
+
+Cutting planes:
+  Cover: 2
+
+Explored 1 nodes (5 simplex iterations) in 0.04 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 94 93 64 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.400000000000e+01, best bound 9.400000000000e+01, gap 0.0000%

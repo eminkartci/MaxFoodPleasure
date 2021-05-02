@@ -1,0 +1,120 @@
+
+--- EMIN & CANSU LTD ---
+
+
+--- Human ---
+Name         : Emin
+Money        : 150
+Food Capacity: 100
+Pleasure     : 0
+
+
+ Suggested Menu 
+[
+--- Food ---
+Name         : Mercimek_E1
+Cost         : 10
+Satiety      : 11
+Pleasure     : 14, 
+--- Food ---
+Name         : Hambuger_E1
+Cost         : 10
+Satiety      : 5
+Pleasure     : 14, 
+--- Food ---
+Name         : Hambuger_E7
+Cost         : 13
+Satiety      : 8
+Pleasure     : 6, 
+--- Food ---
+Name         : Hambuger_E2
+Cost         : 7
+Satiety      : 12
+Pleasure     : 11, 
+--- Food ---
+Name         : Hambuger_E3
+Cost         : 8
+Satiety      : 13
+Pleasure     : 11, 
+--- Food ---
+Name         : Mercimek_E4
+Cost         : 7
+Satiety      : 6
+Pleasure     : 12, 
+--- Food ---
+Name         : Mercimek_E9
+Cost         : 14
+Satiety      : 9
+Pleasure     : 11, 
+--- Food ---
+Name         : Pizza_E7
+Cost         : 5
+Satiety      : 14
+Pleasure     : 6, 
+--- Food ---
+Name         : Hambuger_E9
+Cost         : 8
+Satiety      : 5
+Pleasure     : 5, 
+--- Food ---
+Name         : Mercimek_E1
+Cost         : 13
+Satiety      : 11
+Pleasure     : 7, 
+--- Food ---
+Name         : Künefe_E2
+Cost         : 12
+Satiety      : 6
+Pleasure     : 6, 
+--- Food ---
+Name         : Salata_E0
+Cost         : 13
+Satiety      : 8
+Pleasure     : 14, 
+--- Food ---
+Name         : Mercimek_E3
+Cost         : 7
+Satiety      : 12
+Pleasure     : 7, 
+--- Food ---
+Name         : Salata_E6
+Cost         : 12
+Satiety      : 10
+Pleasure     : 10, 
+--- Food ---
+Name         : Salata_E1
+Cost         : 5
+Satiety      : 8
+Pleasure     : 5, 
+--- Food ---
+Name         : Salata_E5
+Cost         : 8
+Satiety      : 11
+Pleasure     : 9, 
+--- Food ---
+Name         : Hambuger_E3
+Cost         : 14
+Satiety      : 9
+Pleasure     : 13, 
+--- Food ---
+Name         : Hambuger_E2
+Cost         : 14
+Satiety      : 9
+Pleasure     : 14, 
+--- Food ---
+Name         : Lahmacun_E5
+Cost         : 8
+Satiety      : 6
+Pleasure     : 7, 
+--- Food ---
+Name         : Pilav_E7
+Cost         : 8
+Satiety      : 10
+Pleasure     : 10]
+
+ Analysis 
+Solution Money		: 125
+Solution Capacity		: 100
+Menu Food Count		: 12
+Solution Pleasure		: 135
+All rights are reserved @2021 Emin & Cansu

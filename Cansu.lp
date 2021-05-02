@@ -1,24 +1,24 @@
 \ LP format - for model browsing. Use MPS format to capture full model detail.
 Maximize
-  10 Tatlı_E4 + 11 Mantı_E6 + 10 Kebap_E8 + 7 Antrikot_E1 + 5 Pilav_E5
-   + 9 Künefe_E8 + 13 Künefe_E8 + 5 Pilav_E2 + 11 Tatlı_E6
-   + 10 Mantı_E9 + 10 Mercimek_E2 + 10 Salata_E4 + 8 Salata_E3
-   + 14 Lahmacun_E1 + 10 Antrikot_E3 + 14 Künefe_E0 + 5 Antrikot_E5
-   + 6 Pizza_E6 + 9 Kebap_E4 + 11 Antrikot_E7
+  13 Pilav_E1 + 12 Pilav_E7 + 11 Pilav_E3 + 5 Mantı_E0 + 8 Künefe_E1
+   + 8 Pizza_E1 + 7 Künefe_E4 + 13 Hambuger_E0 + 14 Salata_E0
+   + 11 Mantı_E5 + 12 Künefe_E5 + 10 Salata_E0 + 11 Salata_E3
+   + 9 Pilav_E1 + 14 Pilav_E0 + 12 Lahmacun_E9 + 6 Pizza_E4 + 5 Lahmacun_E6
+   + 5 Mantı_E1 + 9 Mercimek_E6
 Subject To
- _Money_Constraint: 7 Tatlı_E4 + 8 Mantı_E6 + 14 Kebap_E8 + 9 Antrikot_E1
-   + 13 Pilav_E5 + 9 Künefe_E8 + 6 Künefe_E8 + 10 Pilav_E2 + 7 Tatlı_E6
-   + 13 Mantı_E9 + 13 Mercimek_E2 + 14 Salata_E4 + 14 Salata_E3
-   + 14 Lahmacun_E1 + 7 Antrikot_E3 + 13 Künefe_E0 + 12 Antrikot_E5
-   + 7 Pizza_E6 + 11 Kebap_E4 + 12 Antrikot_E7 <= 23563
- _Food_Capacity_Constraint: 5 Tatlı_E4 + 13 Mantı_E6 + 10 Kebap_E8
-   + 9 Antrikot_E1 + 10 Pilav_E5 + 12 Künefe_E8 + 5 Künefe_E8
-   + 6 Pilav_E2 + 5 Tatlı_E6 + 8 Mantı_E9 + 14 Mercimek_E2 + 5 Salata_E4
-   + 12 Salata_E3 + 12 Lahmacun_E1 + 12 Antrikot_E3 + 14 Künefe_E0
-   + 12 Antrikot_E5 + 10 Pizza_E6 + 14 Kebap_E4 + 12 Antrikot_E7 <= 33
+ _Money_Constraint: 13 Pilav_E1 + 7 Pilav_E7 + 13 Pilav_E3 + 9 Mantı_E0
+   + 10 Künefe_E1 + 13 Pizza_E1 + 7 Künefe_E4 + 13 Hambuger_E0
+   + 14 Salata_E0 + 11 Mantı_E5 + 10 Künefe_E5 + 14 Salata_E0
+   + 13 Salata_E3 + 6 Pilav_E1 + 9 Pilav_E0 + 13 Lahmacun_E9 + 10 Pizza_E4
+   + 13 Lahmacun_E6 + 10 Mantı_E1 + 10 Mercimek_E6 <= 80
+ _Food_Capacity_Constraint: 5 Pilav_E1 + 5 Pilav_E7 + 13 Pilav_E3
+   + 12 Mantı_E0 + 6 Künefe_E1 + 14 Pizza_E1 + 11 Künefe_E4
+   + 7 Hambuger_E0 + 14 Salata_E0 + 12 Mantı_E5 + 10 Künefe_E5
+   + 6 Salata_E0 + 6 Salata_E3 + 9 Pilav_E1 + 7 Pilav_E0 + 6 Lahmacun_E9
+   + 14 Pizza_E4 + 9 Lahmacun_E6 + 14 Mantı_E1 + 11 Mercimek_E6 <= 70
 Bounds
 Binaries
- Tatlı_E4 Mantı_E6 Kebap_E8 Antrikot_E1 Pilav_E5 Künefe_E8 Künefe_E8
- Pilav_E2 Tatlı_E6 Mantı_E9 Mercimek_E2 Salata_E4 Salata_E3 Lahmacun_E1
- Antrikot_E3 Künefe_E0 Antrikot_E5 Pizza_E6 Kebap_E4 Antrikot_E7
+ Pilav_E1 Pilav_E7 Pilav_E3 Mantı_E0 Künefe_E1 Pizza_E1 Künefe_E4
+ Hambuger_E0 Salata_E0 Mantı_E5 Künefe_E5 Salata_E0 Salata_E3 Pilav_E1
+ Pilav_E0 Lahmacun_E9 Pizza_E4 Lahmacun_E6 Mantı_E1 Mercimek_E6
 End

@@ -1,4 +1,6 @@
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Random;
@@ -37,7 +39,7 @@ public class Main {
 
         initialize();
         show(4);
-        
+        saveSolution();
     }
     
 
@@ -125,6 +127,9 @@ public class Main {
     		solMoney += f.getCost();
     		solPleasure += f.getPleasure();
     	}
+    	
+    	// Set Human Pleasure
+    	human.setPleasure(solPleasure);
     	
     }
     
@@ -279,6 +284,35 @@ public class Main {
         System.out.println("Food Capacity   : "); int capacity = scanInt.nextInt();
         // return it
         human = new Human(name,money,capacity);
+    }
+    
+    public static void saveSolution() {
+    	
+    	try {
+    		
+    	      FileWriter myWriter = new FileWriter(human.getName()+".txt");
+    	      
+    	      myWriter.write("\n--- EMIN & CANSU LTD ---\n\n");
+    	      myWriter.write(human.toString());
+    	      myWriter.write("\n\n\n Suggested Menu \n");
+    	      myWriter.write(foods.toString());
+    	      myWriter.write("\n\nAnalysis \n");
+    	      myWriter.write("Solution Money		: "+ solMoney +"\n");
+    	      myWriter.write("Solution Capacity		: "+ solCapacity +"\n");
+    	      myWriter.write("Menu Food Count		: "+ chosenFoods.size() +"\n");
+    	      myWriter.write("Solution Pleasure		: "+ solPleasure +"\n\n");
+    	      myWriter.write(human.toString());
+    	      myWriter.write("All rights are reserved @2021 Emin & Cansu");
+    	      
+    	      myWriter.close();
+    	      System.out.println("Successfully wrote to the file.");
+    	      
+    	    } catch (IOException e) {
+    	      System.out.println("An error occurred.");
+    	      e.printStackTrace();
+    	    }
+    	
+    	
     }
 
     
