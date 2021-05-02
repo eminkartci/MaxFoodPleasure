@@ -24,5 +24,11 @@ public class Food {
                 + "Satiety      : " + this.satiety     + "\n"
                 + "Pleasure     : " + this.pleasure;
     }  
+
+    // GETTER SETTER
+    
+    public String getName(){
+        return this.name;
+    }
     
 }

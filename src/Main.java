@@ -1,5 +1,6 @@
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Random;
 import java.util.Scanner;
 import gurobi.*;
@@ -11,6 +12,7 @@ public class Main {
     private static int FOOD_COUNT       = 20;
     private static int RANDOM_RANGE     = 10;
     private static int RANDOM_MIN       = 5;
+    private static String GUROBI_NAME   = "Emin.log";
 
     // Scanner
     private static Scanner scanInt = new Scanner(System.in);
@@ -21,12 +23,19 @@ public class Main {
     private static Human human;
     private static ArrayList<Food> foods = new ArrayList<Food>();
     
+    
+    // Gurobi variables
+    private static GRBEnv env;
+    private static GRBModel model;
+    private static HashMap<Food,GRBVar> GRBVarMap = new HashMap<Food,GRBVar>(); 
 
     public static void main(String args[]){
 
         initialize();
         show(3);
     }
+    
+
 
     public static void initialize(){
         // create human
@@ -34,7 +43,43 @@ public class Main {
 
         // create random Foods
         createFoods(FOOD_COUNT);
+        
+        // create gurobi
+        createGurobi();
 
+    }
+    
+    public static void createGurobi() {
+    	try {
+    		
+    		// create env and model
+			env = new GRBEnv(GUROBI_NAME);
+			model = new GRBModel(env);
+			
+			// Create variables
+			createGRBVars();
+			
+		} catch (GRBException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    }
+    
+    public static void createGRBVars() {
+    	
+    	for (Food f : foods) {
+    		
+    		try {
+    			
+				GRBVarMap.put(f, model.addVar(0, 1, 0, GRB.BINARY, f.getName()) ) ;
+				
+			} catch (GRBException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+    		
+    	}
+    	
     }
 
     public static void show(int mode){
