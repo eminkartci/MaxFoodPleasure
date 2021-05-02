@@ -17,5 +17,12 @@ public class Food {
         this.pleasure = pleasure;
     }
 
+    public String toString() {
+        return "\n--- Food ---\n" 
+                + "Name         : " + this.name        + "\n"
+                + "Cost         : " + this.cost        + "\n"
+                + "Satiety      : " + this.satiety     + "\n"
+                + "Pleasure     : " + this.pleasure;
+    }  
     
 }
