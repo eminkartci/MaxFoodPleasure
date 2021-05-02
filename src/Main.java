@@ -13,7 +13,7 @@ public class Main {
     private static int RANDOM_RANGE     = 10;
     private static int RANDOM_MIN       = 5;
     private static String GUROBI_NAME   = "Emin.log";
-    private static String GUROBI_LOG_NAME= "Cansu.log";
+    private static String GUROBI_LOG_NAME= "Cansu.lp";
 
     // Scanner
     private static Scanner scanInt = new Scanner(System.in);
@@ -29,11 +29,15 @@ public class Main {
     private static GRBEnv env;
     private static GRBModel model;
     private static HashMap<Food,GRBVar> GRBVarMap = new HashMap<Food,GRBVar>(); 
+    private static ArrayList<Food> chosenFoods = new ArrayList<Food>();
+    private static int solCapacity,solPleasure,solMoney;
 
+    // MAIN
     public static void main(String args[]){
 
         initialize();
-        show(3);
+        show(4);
+        
     }
     
 
@@ -73,11 +77,55 @@ public class Main {
 			model.write(GUROBI_LOG_NAME);
 			model.optimize();
 			
+			// Hold selected foods in arraylist
+			getSelectedFoods();
+			
 			
 		} catch (GRBException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+    }
+    
+    public static void getSelectedFoods() {
+    	
+    	// Loop all Foods
+    	for(Food f : foods) {
+    		
+    		try {
+    			// If it is chosen
+				if(GRBVarMap.get(f).get(GRB.DoubleAttr.X) == 1) {
+					// append selected foods
+					chosenFoods.add(f);
+				}
+				
+			} catch (GRBException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+    		
+    		
+    	}
+    	
+    	calculateSolutions();
+    	
+    }
+    
+    public static void calculateSolutions() {
+    	
+    	// initialize
+    	solCapacity = 0;
+    	solMoney 	= 0;
+    	solPleasure = 0;
+    	
+    	// Loop all selected foods
+    	for(Food f : chosenFoods){
+    		// sum them
+    		solCapacity += f.getSatiety();
+    		solMoney += f.getCost();
+    		solPleasure += f.getPleasure();
+    	}
+    	
     }
     
     
@@ -184,13 +232,28 @@ public class Main {
 
     public static void show(int mode){
 
+    	// Show only human
         if (mode == 1){
             System.out.println(human);
+            
+        // Show only foods
         }else if (mode == 2){
             System.out.println(foods);
+            
+        // Show both human and foods
         }else if (mode == 3){
             System.out.println(human);
             System.out.println(foods);
+            
+        // Show result
+        }else if(mode == 4) {
+        	
+        	System.out.println(chosenFoods);
+        	System.out.println();
+        	System.out.println("Total Money		: " + solMoney);
+        	System.out.println("Total Capacity	: " + solCapacity);
+        	System.out.println("Total Pleasure	: " + solPleasure);
+        	
         }else{
             System.out.println("Please give avalid mode !");
         }
@@ -218,6 +281,6 @@ public class Main {
         human = new Human(name,money,capacity);
     }
 
-
+    
     
 }
