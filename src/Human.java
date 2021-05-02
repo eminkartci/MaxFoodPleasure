@@ -8,7 +8,9 @@ public class Human {
     private int 	pleasure;
 
     public Human(String name) {
+    	
         this.name = name;
+        
     }
 
 
