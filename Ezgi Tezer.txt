@@ -1,0 +1,126 @@
+
+--- EMIN & CANSU LTD ---
+
+
+--- Human ---
+Name         : Ezgi Tezer
+Money        : 140
+Food Capacity: 75
+Pleasure     : 111
+
+
+ Suggested Menu 
+[
+--- Food ---
+Name         : Pizza_E9
+Cost         : 12
+Satiety      : 12
+Pleasure     : 11, 
+--- Food ---
+Name         : Mercimek_E9
+Cost         : 11
+Satiety      : 8
+Pleasure     : 11, 
+--- Food ---
+Name         : Hambuger_E1
+Cost         : 8
+Satiety      : 14
+Pleasure     : 6, 
+--- Food ---
+Name         : Kebap_E0
+Cost         : 9
+Satiety      : 10
+Pleasure     : 12, 
+--- Food ---
+Name         : Tatlı_E3
+Cost         : 5
+Satiety      : 13
+Pleasure     : 14, 
+--- Food ---
+Name         : Tatlı_E3
+Cost         : 7
+Satiety      : 14
+Pleasure     : 6, 
+--- Food ---
+Name         : Pizza_E0
+Cost         : 12
+Satiety      : 7
+Pleasure     : 13, 
+--- Food ---
+Name         : Lahmacun_E9
+Cost         : 14
+Satiety      : 5
+Pleasure     : 10, 
+--- Food ---
+Name         : Kebap_E4
+Cost         : 10
+Satiety      : 6
+Pleasure     : 9, 
+--- Food ---
+Name         : Lahmacun_E1
+Cost         : 10
+Satiety      : 8
+Pleasure     : 5, 
+--- Food ---
+Name         : Pizza_E3
+Cost         : 8
+Satiety      : 11
+Pleasure     : 12, 
+--- Food ---
+Name         : Lahmacun_E6
+Cost         : 8
+Satiety      : 10
+Pleasure     : 7, 
+--- Food ---
+Name         : Mantı_E8
+Cost         : 8
+Satiety      : 7
+Pleasure     : 8, 
+--- Food ---
+Name         : Salata_E7
+Cost         : 13
+Satiety      : 8
+Pleasure     : 5, 
+--- Food ---
+Name         : Künefe_E9
+Cost         : 5
+Satiety      : 5
+Pleasure     : 8, 
+--- Food ---
+Name         : Hambuger_E4
+Cost         : 11
+Satiety      : 10
+Pleasure     : 13, 
+--- Food ---
+Name         : Salata_E1
+Cost         : 12
+Satiety      : 11
+Pleasure     : 5, 
+--- Food ---
+Name         : Pizza_E2
+Cost         : 8
+Satiety      : 9
+Pleasure     : 6, 
+--- Food ---
+Name         : Salata_E1
+Cost         : 7
+Satiety      : 9
+Pleasure     : 14, 
+--- Food ---
+Name         : Mercimek_E6
+Cost         : 13
+Satiety      : 5
+Pleasure     : 11]
+
+Analysis 
+Solution Money		: 96
+Solution Capacity		: 75
+Menu Food Count		: 10
+Solution Pleasure		: 111
+
+
+--- Human ---
+Name         : Ezgi Tezer
+Money        : 140
+Food Capacity: 75
+Pleasure     : 111All rights are reserved @2021 Emin & Cansu

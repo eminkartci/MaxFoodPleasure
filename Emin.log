@@ -190,3 +190,61 @@ Solution count 3: 94 93 64
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 9.400000000000e+01, best bound 9.400000000000e+01, gap 0.0000%
+
+Gurobi 9.1.1 (mac64, Java) logging started Sun May  2 15:44:27 2021
+
+Academic license - for non-commercial use only - expires 2021-06-20
+Warning: variables 4 and 5 have the same name "Tatlı_E3"
+Warning: constraint name " Money Constraint" has a space
+Warning: to let Gurobi read it back, use rlp format
+Gurobi Optimizer version 9.1.1 build v9.1.1rc0 (mac64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 2 rows, 20 columns and 40 nonzeros
+Model fingerprint: 0x0c06fc92
+Variable types: 0 continuous, 20 integer (20 binary)
+Coefficient statistics:
+  Matrix range     [5e+00, 1e+01]
+  Objective range  [5e+00, 1e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [8e+01, 1e+02]
+Found heuristic solution: objective 60.0000000
+Presolve removed 2 rows and 20 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 2: 111 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.110000000000e+02, best bound 1.110000000000e+02, gap 0.0000%
+
+Gurobi 9.1.1 (mac64, Java) logging started Sun May  2 15:45:29 2021
+
+Academic license - for non-commercial use only - expires 2021-06-20
+Warning: variables 16 and 17 have the same name "Künefe_E4"
+Warning: constraint name " Money Constraint" has a space
+Warning: to let Gurobi read it back, use rlp format
+Gurobi Optimizer version 9.1.1 build v9.1.1rc0 (mac64)
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+Optimize a model with 2 rows, 20 columns and 40 nonzeros
+Model fingerprint: 0x5b70c918
+Variable types: 0 continuous, 20 integer (20 binary)
+Coefficient statistics:
+  Matrix range     [5e+00, 1e+01]
+  Objective range  [5e+00, 1e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [8e+01, 1e+02]
+Found heuristic solution: objective 67.0000000
+Presolve removed 2 rows and 20 columns
+Presolve time: 0.01s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.03 seconds
+Thread count was 1 (of 4 available processors)
+
+Solution count 2: 100 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.000000000000e+02, best bound 1.000000000000e+02, gap 0.0000%

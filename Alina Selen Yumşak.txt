@@ -1,0 +1,126 @@
+
+--- EMIN & CANSU LTD ---
+
+
+--- Human ---
+Name         : Alina Selen Yumşak
+Money        : 120
+Food Capacity: 78
+Pleasure     : 100
+
+
+ Suggested Menu 
+[
+--- Food ---
+Name         : Mantı_E2
+Cost         : 11
+Satiety      : 9
+Pleasure     : 9, 
+--- Food ---
+Name         : Pizza_E8
+Cost         : 14
+Satiety      : 5
+Pleasure     : 7, 
+--- Food ---
+Name         : Hambuger_E3
+Cost         : 5
+Satiety      : 8
+Pleasure     : 9, 
+--- Food ---
+Name         : Pilav_E5
+Cost         : 5
+Satiety      : 6
+Pleasure     : 11, 
+--- Food ---
+Name         : Lahmacun_E0
+Cost         : 10
+Satiety      : 14
+Pleasure     : 10, 
+--- Food ---
+Name         : Mantı_E1
+Cost         : 6
+Satiety      : 14
+Pleasure     : 6, 
+--- Food ---
+Name         : Tatlı_E4
+Cost         : 13
+Satiety      : 14
+Pleasure     : 5, 
+--- Food ---
+Name         : Tatlı_E8
+Cost         : 10
+Satiety      : 13
+Pleasure     : 13, 
+--- Food ---
+Name         : Künefe_E7
+Cost         : 5
+Satiety      : 13
+Pleasure     : 9, 
+--- Food ---
+Name         : Mercimek_E4
+Cost         : 12
+Satiety      : 7
+Pleasure     : 10, 
+--- Food ---
+Name         : Salata_E2
+Cost         : 5
+Satiety      : 10
+Pleasure     : 14, 
+--- Food ---
+Name         : Hambuger_E8
+Cost         : 11
+Satiety      : 13
+Pleasure     : 12, 
+--- Food ---
+Name         : Pilav_E6
+Cost         : 14
+Satiety      : 5
+Pleasure     : 9, 
+--- Food ---
+Name         : Kebap_E0
+Cost         : 8
+Satiety      : 9
+Pleasure     : 6, 
+--- Food ---
+Name         : Pizza_E5
+Cost         : 14
+Satiety      : 11
+Pleasure     : 14, 
+--- Food ---
+Name         : Mantı_E4
+Cost         : 11
+Satiety      : 12
+Pleasure     : 12, 
+--- Food ---
+Name         : Künefe_E4
+Cost         : 12
+Satiety      : 9
+Pleasure     : 8, 
+--- Food ---
+Name         : Künefe_E4
+Cost         : 11
+Satiety      : 12
+Pleasure     : 6, 
+--- Food ---
+Name         : Antrikot_E1
+Cost         : 14
+Satiety      : 12
+Pleasure     : 11, 
+--- Food ---
+Name         : Kebap_E2
+Cost         : 9
+Satiety      : 11
+Pleasure     : 13]
+
+Analysis 
+Solution Money		: 88
+Solution Capacity		: 76
+Menu Food Count		: 9
+Solution Pleasure		: 100
+
+
+--- Human ---
+Name         : Alina Selen Yumşak
+Money        : 120
+Food Capacity: 78
+Pleasure     : 100All rights are reserved @2021 Emin & Cansu
