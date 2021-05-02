@@ -13,6 +13,7 @@ public class Main {
     private static int RANDOM_RANGE     = 10;
     private static int RANDOM_MIN       = 5;
     private static String GUROBI_NAME   = "Emin.log";
+    private static String GUROBI_LOG_NAME= "Cansu.log";
 
     // Scanner
     private static Scanner scanInt = new Scanner(System.in);
@@ -60,13 +61,60 @@ public class Main {
 			createGRBVars();
 			
 			// Constraint - Money
+			moneyContraint();
 			
+			// Constraint - Capacity
+			capacityContraint();
+			
+			// Set Objective Function
+			setObjective();
+			
+			// Optimize
+			model.write(GUROBI_LOG_NAME);
+			model.optimize();
 			
 			
 		} catch (GRBException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+    }
+    
+    
+    // Optional
+    public static void clearGRB() {
+    	
+    	try {
+    		model.dispose();
+			env.dispose();
+		} catch (GRBException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    }
+    
+    public static void setObjective() {
+    	
+    	// Expression
+    	GRBLinExpr objFunc = new GRBLinExpr();
+    	
+    	// generate expression
+    	for( Food f : foods) {
+    		
+    		objFunc.addTerm(f.getPleasure(), GRBVarMap.get(f));
+    		
+    	}
+    	
+    	// add constraint
+    	try {
+    		
+			model.setObjective(objFunc,GRB.MAXIMIZE);
+			
+		} catch (GRBException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    	
     }
     
     public static void moneyContraint() {
@@ -82,7 +130,38 @@ public class Main {
     	}
     	
     	// add constraint
-    	model.addConstr(moneyExpression, GRB.LESS_EQUAL, human.getMoney(), " Money Constraint" );
+    	try {
+    		
+			model.addConstr(moneyExpression, GRB.LESS_EQUAL, human.getMoney(), " Money Constraint" );
+			
+		} catch (GRBException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    	
+    }
+    
+    public static void capacityContraint() {
+    	
+    	// Expression
+    	GRBLinExpr capacityExpression = new GRBLinExpr();
+    	
+    	// generate expression
+    	for( Food f : foods) {
+    		
+    		capacityExpression.addTerm(f.getSatiety(), GRBVarMap.get(f));
+    		
+    	}
+    	
+    	// add constraint
+    	try {
+    		
+			model.addConstr(capacityExpression, GRB.LESS_EQUAL, human.getFoodCapacity(), " Food Capacity Constraint" );
+			
+		} catch (GRBException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
     	
     }
     
