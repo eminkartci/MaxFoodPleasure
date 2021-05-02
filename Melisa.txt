@@ -1,0 +1,126 @@
+
+--- EMIN & CANSU LTD ---
+
+
+--- Human ---
+Name         : Melisa
+Money        : 120
+Food Capacity: 63
+Pleasure     : 78
+
+
+ Suggested Menu 
+[
+--- Food ---
+Name         : Lahmacun_5
+Cost         : 12
+Satiety      : 8
+Pleasure     : 5, 
+--- Food ---
+Name         : Kebap_0
+Cost         : 8
+Satiety      : 5
+Pleasure     : 10, 
+--- Food ---
+Name         : Tatlı_1
+Cost         : 6
+Satiety      : 8
+Pleasure     : 7, 
+--- Food ---
+Name         : Antrikot_5
+Cost         : 14
+Satiety      : 7
+Pleasure     : 5, 
+--- Food ---
+Name         : Künefe_4
+Cost         : 9
+Satiety      : 14
+Pleasure     : 14, 
+--- Food ---
+Name         : Hambuger_4
+Cost         : 7
+Satiety      : 14
+Pleasure     : 10, 
+--- Food ---
+Name         : Salata_2
+Cost         : 11
+Satiety      : 8
+Pleasure     : 11, 
+--- Food ---
+Name         : Pilav_3
+Cost         : 13
+Satiety      : 10
+Pleasure     : 9, 
+--- Food ---
+Name         : Lahmacun_5
+Cost         : 8
+Satiety      : 13
+Pleasure     : 13, 
+--- Food ---
+Name         : Salata_2
+Cost         : 9
+Satiety      : 14
+Pleasure     : 13, 
+--- Food ---
+Name         : Mantı_8
+Cost         : 7
+Satiety      : 6
+Pleasure     : 5, 
+--- Food ---
+Name         : Künefe_8
+Cost         : 13
+Satiety      : 7
+Pleasure     : 10, 
+--- Food ---
+Name         : Lahmacun_3
+Cost         : 7
+Satiety      : 12
+Pleasure     : 6, 
+--- Food ---
+Name         : Künefe_7
+Cost         : 11
+Satiety      : 11
+Pleasure     : 6, 
+--- Food ---
+Name         : Salata_3
+Cost         : 6
+Satiety      : 11
+Pleasure     : 12, 
+--- Food ---
+Name         : Hambuger_0
+Cost         : 5
+Satiety      : 11
+Pleasure     : 10, 
+--- Food ---
+Name         : Pizza_7
+Cost         : 9
+Satiety      : 8
+Pleasure     : 11, 
+--- Food ---
+Name         : Lahmacun_0
+Cost         : 8
+Satiety      : 5
+Pleasure     : 5, 
+--- Food ---
+Name         : Pizza_1
+Cost         : 8
+Satiety      : 14
+Pleasure     : 8, 
+--- Food ---
+Name         : Mercimek_6
+Cost         : 7
+Satiety      : 8
+Pleasure     : 9]
+
+Analysis 
+Solution Money		: 65
+Solution Capacity		: 63
+Menu Food Count		: 7
+Solution Pleasure		: 78
+
+
+--- Human ---
+Name         : Melisa
+Money        : 120
+Food Capacity: 63
+Pleasure     : 78All rights are reserved @2021 Emin & Cansu

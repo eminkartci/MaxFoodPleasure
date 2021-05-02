@@ -40,6 +40,7 @@ public class Main {
         initialize();
         show(4);
         saveSolution();
+
     }
     
 
@@ -270,7 +271,7 @@ public class Main {
 
         for(int i = 0 ; i < foodCount; i++){
             
-            Food tempFood = new Food(FOOD_NAMES[random.nextInt(FOOD_NAMES.length)] + "_E"+ random.nextInt(RANDOM_RANGE) ,random.nextInt(RANDOM_RANGE)+RANDOM_MIN,random.nextInt(RANDOM_RANGE)+RANDOM_MIN,random.nextInt(RANDOM_RANGE)+RANDOM_MIN);
+            Food tempFood = new Food(FOOD_NAMES[random.nextInt(FOOD_NAMES.length)] + "_"+ random.nextInt(RANDOM_RANGE) ,random.nextInt(RANDOM_RANGE)+RANDOM_MIN,random.nextInt(RANDOM_RANGE)+RANDOM_MIN,random.nextInt(RANDOM_RANGE)+RANDOM_MIN);
             foods.add(tempFood);
         }
 
