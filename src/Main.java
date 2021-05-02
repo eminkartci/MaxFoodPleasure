@@ -59,10 +59,31 @@ public class Main {
 			// Create variables
 			createGRBVars();
 			
+			// Constraint - Money
+			
+			
+			
 		} catch (GRBException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+    }
+    
+    public static void moneyContraint() {
+    	
+    	// Expression
+    	GRBLinExpr moneyExpression = new GRBLinExpr();
+    	
+    	// generate expression
+    	for( Food f : foods) {
+    		
+    		moneyExpression.addTerm(f.getCost(), GRBVarMap.get(f));
+    		
+    	}
+    	
+    	// add constraint
+    	model.addConstr(moneyExpression, GRB.LESS_EQUAL, human.getMoney(), " Money Constraint" );
+    	
     }
     
     public static void createGRBVars() {

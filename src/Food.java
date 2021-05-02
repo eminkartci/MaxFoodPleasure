@@ -8,8 +8,7 @@ public class Food {
     private int satiety;    // Doyuruculuk
     private int pleasure;
 
-
-    // Constructor
+	// Constructor
     public Food(String name,int cost,int satiety,int pleasure){
         this.name = name;
         this.cost = cost;
@@ -30,5 +29,34 @@ public class Food {
     public String getName(){
         return this.name;
     }
+    
+    public int getCost() {
+		return cost;
+	}
+
+	public void setCost(int cost) {
+		this.cost = cost;
+	}
+
+	public int getSatiety() {
+		return satiety;
+	}
+
+	public void setSatiety(int satiety) {
+		this.satiety = satiety;
+	}
+
+	public int getPleasure() {
+		return pleasure;
+	}
+
+	public void setPleasure(int pleasure) {
+		this.pleasure = pleasure;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
     
 }

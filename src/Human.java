@@ -15,7 +15,42 @@ public class Human {
         this.pleasure       = 0;
     }
 
-    public String toString() {
+    // GETTER SETTER 
+    
+    
+    public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getMoney() {
+		return money;
+	}
+
+	public void setMoney(int money) {
+		this.money = money;
+	}
+
+	public int getFoodCapacity() {
+		return foodCapacity;
+	}
+
+	public void setFoodCapacity(int foodCapacity) {
+		this.foodCapacity = foodCapacity;
+	}
+
+	public int getPleasure() {
+		return pleasure;
+	}
+
+	public void setPleasure(int pleasure) {
+		this.pleasure = pleasure;
+	}
+
+	public String toString() {
         return "\n--- Human ---\n" 
                 + "Name         : " + this.name             + "\n"
                 + "Money        : " + this.money            + "\n"
